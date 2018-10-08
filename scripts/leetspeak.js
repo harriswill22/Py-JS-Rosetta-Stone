@@ -7,7 +7,7 @@ const textToTranslate = text.toUpperCase();
 let translation = ``;
 
 //ES6 array iteration
-// Basically the Equilvent of pythin's loop
+// Basically the Equivalent of python's loop
 
 for (let letter of textToTranslate){
     // console.log(letter);
@@ -25,7 +25,7 @@ if (index !== -1) {
     // use the index to grab the corresponding letters 
     translation = translation + numbers[index];
 }else{
-    // elses, just use the orginal letter
+    // elses, just use the original letter
     translation = translation + letter;
         }
 
